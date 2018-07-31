@@ -25,7 +25,8 @@ class ViewController: UIViewController {
         let resultviewController = segue.destination as! ResultViewController
         resultviewController.text1 = textField.text
     }
-
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue){
 
 }
-
+}
